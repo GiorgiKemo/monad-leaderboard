@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Player, LeaderboardFilters } from '@/types/leaderboard';
-import { calculateCompositeScore } from '@/utils/scoreCalculator';
 
 interface LeaderboardProps {
   players: Player[];
